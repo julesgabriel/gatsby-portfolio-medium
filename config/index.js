@@ -9,7 +9,7 @@ module.exports = {
   siteLanguage: "fr_FR",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
   seoTitleSuffix: "Portfolio Jules DAYAUX", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
-  useCookieBar: true, // If you use Google Analytics and want to be GDPR-compliant, set it to true
+  useCookieBar: false, // If you use Google Analytics and want to be GDPR-compliant, set it to true
   googleAnalyticsTrackingId: "", // e.g. UA-XXXXXX-X
 
   // -- THEME SETTINGS -----
