@@ -28,7 +28,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
 
     .footer-links {
       /* Adjust width of links wrapper accordingly */
-      width: 10rem;
+      width: 14rem;
       display: flex;
       justify-content: space-between;
       @media (min-width: ${({theme}) => theme.breakpoints.sm}) {
