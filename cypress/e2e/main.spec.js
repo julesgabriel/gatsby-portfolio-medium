@@ -31,24 +31,6 @@ describe("IndexPage", () => {
       .should("have.attr", "href")
       .and("include", "privacy")
   })
-
-  it("renders other pages", () => {
-    cy.get("#layout-wrapper").then(elem => {
-      if (elem.attr("data-useCookieBar") === "true") {
-        cy.get("button#confirm").click()
-        cy.findByTestId("footer-links")
-          .findByText(/imprint/i)
-          .click()
-        cy.findByTestId("heading").should("exist")
-      } else {
-        cy.findByTestId("footer-links")
-          .findByText(/imprint/i)
-          .click()
-        cy.findByTestId("heading").should("exist")
-      }
-    })
-  })
-
   it("renders cookie bar if activated", () => {
     cy.get("#layout-wrapper").then(elem => {
       if (elem.attr("data-useCookieBar") === "true") {
