@@ -5,6 +5,7 @@ import GlobalStateProvider from "../context/provider"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ContentWrapper from "../styles/contentWrapper"
+import {Link} from "gatsby";
 
 const StyledSection = styled.section`
   width: 100%;
@@ -12,7 +13,8 @@ const StyledSection = styled.section`
   margin: 0 auto;
   padding: 0 2.5rem;
   height: auto;
-  background: ${({ theme }) => theme.colors.background};
+  background: ${({theme}) => theme.colors.background};
+
   h1 {
     font-size: 1.5rem;
   }
@@ -29,27 +31,27 @@ const StyledContentWrapper = styled(ContentWrapper)`
 `
 
 const NotFoundPage = () => {
-  const globalState = {
-    isIntroDone: true,
-    darkMode: false,
-  }
+    const globalState = {
+        isIntroDone: true,
+        darkMode: false,
+    }
 
-  return (
-    <GlobalStateProvider initialState={globalState}>
-      <Layout>
-        <SEO
-          title="404: Not found"
-          meta={[{ name: "robots", content: "noindex" }]}
-        />
-        <StyledSection>
-          <StyledContentWrapper>
-            <h1 data-testid="heading">NOT FOUND</h1>
-            <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-          </StyledContentWrapper>
-        </StyledSection>
-      </Layout>
-    </GlobalStateProvider>
-  )
+    return (
+        <GlobalStateProvider initialState={globalState}>
+            <Layout>
+                <SEO
+                    title="404: Not found"
+                    meta={[{name: "robots", content: "noindex"}]}
+                />
+                <StyledSection>
+                    <StyledContentWrapper>
+                        <h1 data-testid="heading">NOT FOUND (='X'=) </h1>
+                        <p>Vous êtes perdus je crois <Link to={"/"}><u>revenez en lieu sûr !</u></Link></p>
+                    </StyledContentWrapper>
+                </StyledSection>
+            </Layout>
+        </GlobalStateProvider>
+    )
 }
 
 export default NotFoundPage

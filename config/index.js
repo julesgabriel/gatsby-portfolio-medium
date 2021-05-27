@@ -1,15 +1,15 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
+  author: "@julesgabriel-dayaux",
+  siteTitle: "Portfolio - Dayaux Jules | Développeur web",
   siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
   siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
+    "Portfolio minimaliste de Jules DAYAUX - Alternant, Développeur et freelance dans le milieu du digital et du web de manière général",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
-  siteLanguage: "en_US",
+  siteLanguage: "fr_FR",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
-  useCookieBar: false, // If you use Google Analytics and want to be GDPR-compliant, set it to true
+  seoTitleSuffix: "Portfolio Jules DAYAUX", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  useCookieBar: true, // If you use Google Analytics and want to be GDPR-compliant, set it to true
   googleAnalyticsTrackingId: "", // e.g. UA-XXXXXX-X
 
   // -- THEME SETTINGS -----
@@ -47,7 +47,7 @@ module.exports = {
   // You can create your own Medium feed with this rss to json converter: https://rss2json.com/
   // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
   mediumRssFeed:
-    "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40konstantinmuenster",
+    "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40julesgabriel-dayaux",
   // rssFeed: "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.theguardian.com%2Finternational%2Frss",
 
   shownArticles: 3,
@@ -58,11 +58,11 @@ module.exports = {
   socialMedia: [
     {
       name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
+      url: "https://www.linkedin.com/in/jules-dayaux-0b003a172/",
     },
     {
       name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
+      url: "https://julesgabriel-dayaux.medium.com/",
     },
     {
       name: "Github",
@@ -70,24 +70,20 @@ module.exports = {
         "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
     },
     {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
+      name: "Mail",
+      url: "mailto:julesgabriel.dayaux@gmail.com",
     },
-    // {
-    //   name: "Mail",
-    //   url: "mailto:mail@konstantin.digital",
-    // },
   ],
 
   //-- NAVIGATION SETTINGS -----
   navLinks: {
     menu: [
       {
-        name: "About Me",
+        name: "À mon propos",
         url: "/#about",
       },
       {
-        name: "Features",
+        name: "Mes compétences",
         url: "/#projects",
       },
       {
@@ -97,18 +93,18 @@ module.exports = {
     ],
     button: {
       useFileName: true,
-      name: "Resume",
-      fileName: "goldenpuppy.pdf", // the file has to be placed inside the static folder at the root level
+      name: "CV",
+      fileName: "Jules-DAYAUX-Full-Stack.pdf", // the file has to be placed inside the static folder at the root level
       url: "", // if useFileName=false, you can set an anchor link here and use the button for navigational purposes
     },
   },
   footerLinks: [
     {
-      name: "Privacy",
+      name: "Confidentialité",
       url: "/privacy",
     },
     {
-      name: "Imprint",
+      name: "Mentions",
       url: "/imprint",
     },
   ],

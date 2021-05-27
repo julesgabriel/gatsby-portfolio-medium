@@ -172,7 +172,7 @@ const Interests = ({ content }) => {
                 type="button"
                 textAlign="left"
               >
-                + Load more
+                + Voir plus
               </Button>
             </motion.div>
           )}
