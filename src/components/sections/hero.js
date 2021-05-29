@@ -119,6 +119,7 @@ const Hero = ({ content }) => {
                 <Img
                   className="emoji"
                   fluid={frontmatter.icon.childImageSharp.fluid}
+                  alt={"wave emoji"}
                 />
               </motion.div>
             </div>

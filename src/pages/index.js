@@ -112,6 +112,7 @@ export const pageQuery = graphql`
             shownItems
             interests {
               name
+              alt
               icon {
                 childImageSharp {
                   fixed(width: 20, height: 20, quality: 90) {

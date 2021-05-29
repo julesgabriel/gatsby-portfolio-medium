@@ -84,6 +84,7 @@ const Contact = ({ content }) => {
           <Img
             className="avatar"
             fluid={frontmatter.profileImage.childImageSharp.fluid}
+            alt="avatar"
           />
           <div className="details">
             <strong>{frontmatter.name}</strong>

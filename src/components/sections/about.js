@@ -107,6 +107,7 @@ const About = ({ content }) => {
           <Img
             className="about-author"
             fluid={frontmatter.image.childImageSharp.fluid}
+            alt="Jules DAYAUX photo"
           />
         </motion.div>
       </StyledContentWrapper>

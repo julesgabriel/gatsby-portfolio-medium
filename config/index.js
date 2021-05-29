@@ -5,7 +5,7 @@ module.exports = {
   siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
   siteDescription:
     "Portfolio minimaliste de Jules DAYAUX - Alternant, Développeur et freelance dans le milieu du digital et du web de manière général",
-  siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
+  siteUrl: "https://julesdayaux.fr/",
   siteLanguage: "fr_FR",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
   seoTitleSuffix: "Portfolio Jules DAYAUX", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"

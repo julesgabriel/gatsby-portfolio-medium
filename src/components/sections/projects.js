@@ -341,6 +341,7 @@ const Projects = ({ content }) => {
                     <Img
                       className="screenshot"
                       fluid={frontmatter.screenshot.childImageSharp.fluid}
+                      alt={frontmatter.title + " image"}
                     />
                   </VisibilitySensor>
                 </StyledProject>
