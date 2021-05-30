@@ -90,7 +90,7 @@ const CookieBar = () => {
         disableStyles={true}
         onAccept={() => initializeAndTrack(location)}
       >
-        <p className="cookieMessage">This website uses cookies 🍪 </p>
+        <p className="cookieMessage">Ce site utilise des cookies 🍪 </p>
       </CookieConsent>
     </StyledCookieBar>
   )
