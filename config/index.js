@@ -66,8 +66,7 @@ module.exports = {
     },
     {
       name: "Github",
-      url:
-        "https://github.com/julesgabriel",
+      url: "https://github.com/julesgabriel",
     },
     {
       name: "Mail",
