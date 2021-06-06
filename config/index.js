@@ -67,7 +67,7 @@ module.exports = {
     {
       name: "Github",
       url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
+        "https://github.com/julesgabriel",
     },
     {
       name: "Mail",
