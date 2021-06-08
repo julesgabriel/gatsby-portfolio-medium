@@ -35,23 +35,23 @@ const SEO = ({ description, lang, meta, title }) => {
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: "Je m'appelle Jules DAYAUX, j'ai 23 ans je suis actuellement étudiant à l'Institut de l'Internet et du Multimédia à la Défense et alternant au sein du Ministère des Armées où j'occupe la place de développeur full-stack. Passionné de développement web, de SEO et d'UX design.",
         },
         {
           property: `og:title`,
-          content: title,
+          content: "Site vitrine de Jules DAYAUX, blogueur, étudiant et développeur",
         },
         {
           property: `og:site_name`,
-          content: title,
+          content: "Portfolio | Jules DAYAUX",
         },
         {
           property: `og:image`,
-          content: ogImageUrl,
+          content: ogImageDefault,
         },
         {
           property: `og:description`,
-          content: metaDescription,
+          content: "Je m'appelle Jules DAYAUX, j'ai 23 ans je suis actuellement étudiant à l'Institut de l'Internet et du Multimédia à la Défense et alternant au sein du Ministère des Armées où j'occupe la place de développeur full-stack. Passionné de développement web, de SEO et d'UX design.",
         },
         {
           property: `og:type`,
